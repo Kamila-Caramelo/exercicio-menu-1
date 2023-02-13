@@ -18,19 +18,16 @@
 }
 
 .menu{
-    margin-top: 100px;
     display: flex;
-    margin: 45px;
     align-items: baseline;
     justify-content: baseline;
 }
 
 .menu li{
-    margin-left: 30px;
-}
+    padding: 10px;
+    }
 
 .fundo-menu{
-    height: 40px;
     width: 55px;
     display: flex;
     justify-content: center;
@@ -64,41 +61,37 @@
         text-align: center;
     }
 
-    .logo img{
-        display: block;
-        margin: auto;
-    }
-
     .logo b{
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .menu{
         display: block;
         text-align: center;
-    }
-
-    .menu li{
-        margin-left: 0;
-        padding: 25px;
-        align-content: space-around;
+        padding-top: 50px;
+        align-items: flex-start;
+        line-height: 65px;
     }
 
     .menu a{
         display: block;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;        
     }
 
     nav{
         width: 100%;
         text-align: center;
+        
     } 
 
     .fundo-menu{
         display: block;
-        width: 233px;
+        height: 50px;
+        width: 100px;
         text-align: center;
+        align-items: center;
+        margin: auto;
     }
 
     .button{
