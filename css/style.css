@@ -62,6 +62,7 @@
         width: 100%;
         display: block;
         text-align: center;
+        padding: 50px;
     }
 
     .logo img{
@@ -80,6 +81,8 @@
 
     .menu li{
         margin-left: 0;
+        padding: 25px;
+        align-content: space-around;
     }
 
     .menu a{
@@ -94,9 +97,9 @@
     } 
 
     .fundo-menu{
-        height: 81px;
+        display: block;
         width: 233px;
-        justify-content: center;
+        text-align: center;
     }
 
     .button{
