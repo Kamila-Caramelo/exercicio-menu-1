@@ -1,0 +1,110 @@
+.header{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo b{
+    margin-left: 6px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.menu{
+    margin-top: 100px;
+    display: flex;
+    margin: 45px;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.menu li{
+    margin-left: 30px;
+}
+
+.fundo-menu{
+    height: 40px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5BC241;
+}
+
+.fundo-menu a{
+    color: #FFFFFF;    
+}
+
+.button{
+    width: 127px;
+    height: 39px;
+    border-radius: 10px;
+    border: 0;
+
+
+    background-color: #5BC241;
+    color: #FFFFFF;
+}
+
+
+/* *** Parte Reponsiva *** */
+
+ @media(max-width: 425px){
+
+    .logo{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .logo img{
+        display: block;
+        margin: auto;
+    }
+
+    .logo b{
+        font-size: 40px;
+    }
+
+    .menu{
+        display: block;
+        text-align: center;
+    }
+
+    .menu li{
+        margin-left: 0;
+    }
+
+    .menu a{
+        display: block;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    nav{
+        width: 100%;
+        text-align: center;
+    } 
+
+    .fundo-menu{
+        height: 81px;
+        width: 233px;
+        justify-content: center;
+    }
+
+    .button{
+        width: 151px;
+        height: 55px;
+        border-radius: 10px;
+        border: 0;
+        font-size: 18px;
+    }
+  
+} 
